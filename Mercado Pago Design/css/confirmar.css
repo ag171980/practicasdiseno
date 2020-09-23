@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+.banner {
+    height: 26.5vh;
+    background-color: #00BFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.banner .img {
+    padding: 10px;
+}
+
+.banner .pregunta {
+    height: 15px;
+    width: 15px;
+    color: white;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.banner .pregunta i {
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.banner .pregunta:hover {
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.body .formulario {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+    width: 500px;
+    margin-top: -12vh;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .12);
+}
+.formulario .texto .principal{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin: 0 70px;
+}
+.formulario .texto .secundario{
+    text-align: center;
+    padding: 30px;
+    margin: 0 35px;
+    font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: #A4A4A4;
+    
+}
+.formulario .botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario .botones .validar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #009ee3;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 7px;
+    height: 28px;
+    min-width: 142px;
+    width: 150px;
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+    border: none;
+}
+
+.formulario .botones .create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00BFFF;
+    height: 48px;
+    width: 170px;
+    background: none;
+    border: none;
+    text-decoration-line: none;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 13px;
+    padding: 7px 14px;
+    border-radius: 7px;
+    transition: 0.2s all;
+}
+
+.formulario .botones .create:hover {
+    background-color: #E2F4FD;
+    transition: 0.2s all;
+}

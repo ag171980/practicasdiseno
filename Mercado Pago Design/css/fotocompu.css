@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+.banner {
+    height: 26.5vh;
+    background-color: #00BFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.banner .img {
+    padding: 10px;
+}
+
+.banner .pregunta {
+    height: 15px;
+    width: 15px;
+    color: white;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.banner .pregunta i {
+    font-size: 8px;
+    font-weight: 700;
+}
+
+.banner .pregunta:hover {
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.body .formulario {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 459px;
+    margin-top: -12vh;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .12);
+}
+
+
+.formulario p {
+    font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 400;
+    text-align: center;
+}
+
+.formulario .opciones {
+    align-self: flex-start;
+    margin-left: 35px;
+    margin-top: 40px;
+    width: 390px;
+}
+
+.opciones .opcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 15px;
+    transition: 0.2s all;
+    border: 0.5px solid #E1E1E1;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.opciones #opcion1 {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-decoration: none;
+}
+
+.opciones #opcion2 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: none;
+    text-decoration: none;
+    color: black;
+}
+
+.opciones .opcion:hover {
+    background-color: #ECECEC;
+    transition: 0.2s all;
+}
+
+.opcion .icono {
+    height: 5vh;
+    width: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.opcion .icono i {
+    background-color: #CFF6FF;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    color: #29B5FF;
+}
+
+.opcion .texto .principal {
+    font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.opcion .flechita {
+    color: #B5B5B5;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.verificar {
+    color: #00A7FF;
+    text-decoration: none;
+    font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    margin-top: 55px;
+    font-size: 15px;
+    font-weight: 600;
+}
