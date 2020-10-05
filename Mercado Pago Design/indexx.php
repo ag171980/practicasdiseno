@@ -18,7 +18,7 @@ $email = $_POST['email'];
     <div class="container">
         <div class="banner">
             <div class="img">
-                <img src="fotes/mi piernita.png" height="35" alt="">
+                <img src="fotos/mp.png" height="35" alt="">
             </div>
             <a href="https://www.mercadopago.com.ar/ayuda" class="pregunta"><i class="fas fa-question"></i></a>
         </div>
