@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usemap IMG</title>
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    area {
+        background-color: red;
+    }
+</style>
+
+<body>
+
+    <h1>The map and area elements</h1>
+
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+    <img src="Mapa.jpg" alt="Workplace" usemap="#workmap" width="500" height="400">
+
+    <map name="workmap">
+
+        <area shape="circle" coords="95,252,20" alt="Patagonia" href="#patagonia">
+        <area shape="circle" coords="90,172,20" alt="Cuyo" href="#cuyo">
+        <area shape="circle" coords="135,190,20" alt="Pampeana" href="#pampeana">
+        <area shape="circle" coords="105,120,20" alt="Noroeste" href="#noroeste">
+        <area shape="circle" coords="145,115,10" alt="Nordeste" href="#nordeste">
+        <area shape="circle" coords="165,135,10" alt="Nordeste" href="#nordeste">
+    </map>
+    <div class="content-text">
+        <div style="height: 500px; background-color: lightblue;" id="patagonia">
+            <h1>La patagonia</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae iusto molestias aspernatur sit, totam
+                unde omnis sint officiis. Consequatur cumque excepturi vitae, ducimus perspiciatis expedita quod nisi
+                quos consectetur ab.</p>
+        </div>
+        <div style="height: 500px; background-color: lightblue;" id="cuyo">
+            <h1>Cuyo</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta tenetur a beatae quod, quasi ut atque
+                consequuntur accusantium libero quae? Totam ex rerum placeat, nulla asperiores deleniti nobis natus
+                repellendus.</p>
+        </div>
+        <div style="height: 500px; background-color: lightblue;" id="pampeana">
+            <h1>La pampa, no existe.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque accusantium eveniet eum repellendus hic ab
+                fugiat harum dolorem necessitatibus nam reiciendis, quis at earum amet repellat voluptatibus nisi
+                quaerat quisquam.</p>
+        </div>
+        <div style="height: 500px; background-color: lightblue;" id="noroeste">
+            <h1>Noroeste</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quos tempora. Amet ea accusantium
+                architecto nulla culpa tempora maxime fugiat assumenda ex sunt? Qui expedita ab necessitatibus non animi
+                minus?</p>
+        </div>
+        <div style="height: 500px; background-color: lightblue;" id="nordeste">
+            <h1>Nordeste</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium cupiditate commodi nobis quia
+                veritatis enim obcaecati placeat, illo necessitatibus esse et dicta libero rem adipisci nihil eaque iure
+                molestias in.</p>
+        </div>
+    </div>
+</body>
+
+</html>

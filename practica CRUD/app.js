@@ -148,6 +148,7 @@ if (subtitulo.textContent == "Contacto") {
             e.preventDefault();
 
         });
+        
 } else if (subtitulo.textContent == "Lista de Contacto") {
     document.getElementById('eliminar').addEventListener('click', function (e) {
         const interface = new Interface();
