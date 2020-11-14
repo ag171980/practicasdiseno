@@ -1,17 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
 
 header {
-    width: 100vw;
+    width: 100%;
 }
 
 .navegacion {
-    
+
     margin: 30px auto;
     background-color: black;
 

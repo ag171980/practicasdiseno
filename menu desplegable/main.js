@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("#btn").click(function(){
+        $("form").slideToggle("");
+    });
+  });
+/*
+  $(document).ready(function(){
+    $("button").click(function(){
+        $("form").
+    });
+  });*/
